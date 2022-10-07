@@ -1,0 +1,66 @@
+.loginPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginpageBg {
+  height: 100vh;
+  width: 38vw;
+}
+.loginCard {
+  height: 453px;
+  width: 356px;
+  box-shadow: 0px 4px 16px 0px #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loginCardPosition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62vw;
+}
+.inputBox {
+  height: 30px;
+  width: 280px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background-color: #e2e8f0;
+  outline: none;
+  border: none;
+}
+.labels {
+  font-size: 12px;
+  color: #475569;
+  font-weight: bold;
+}
+.btn {
+  height: 30px;
+  width: 280px;
+  margin-top: 5px;
+  background-color: #f7931e;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.heading {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #f7931e;
+}
+.loginHeading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+.errorMsg {
+  color: #ef4444;
+  font-size: 14px;
+}
