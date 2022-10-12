@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom'
 
 import CartContext from '../../context/cartContext'
+import success from '../../Data/success.png'
 
 import './index.css'
 
@@ -17,11 +18,7 @@ const Payment = () => (
         <>
           <div className="payment-container">
             <div className="payment-card">
-              <img
-                src="https://res.cloudinary.com/dkobk5oao/image/upload/v1633712753/Vector_1_rjhmoy.png"
-                alt="success"
-                className="payment-image"
-              />
+              <img src={success} alt="success" className="payment-image" />
               <h1 className="payment-heading">Payment Successful</h1>
               <p className="payment-text">
                 Thank you for ordering Your payment is successfully completed

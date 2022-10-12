@@ -89,6 +89,7 @@ const NavBar = props => {
               <GiHamburgerMenu size={25} className="hamburger" />
             </button>
           }
+          position="bottom right"
         >
           {close => (
             <div className="modal-container">

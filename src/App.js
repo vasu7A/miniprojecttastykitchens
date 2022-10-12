@@ -25,11 +25,6 @@ class App extends Component {
     cartList: getCartListFromLocalStorage(),
   }
 
-  /* setToLocalStorage = () => {
-    const {cartList} = this.state
-    localStorage.setItem('cart_list', JSON.stringify(cartList))
-  } */
-
   removeAllCartItems = () => {
     this.setState({cartList: []})
   }

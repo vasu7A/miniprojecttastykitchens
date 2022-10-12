@@ -27,6 +27,9 @@ const CartItem = props => (
             <img src={imageUrl} alt={name} className="cart-item-image" />
             <h1 className="cart-item-desktop-name">{name}</h1>
           </div>
+          <div>
+            <h1 className="cart-item-mobile-name">{name}</h1>
+          </div>
           <div className="cart-qty-container">
             <button
               className="decrement-quantity"

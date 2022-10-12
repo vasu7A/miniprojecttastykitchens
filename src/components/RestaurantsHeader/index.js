@@ -14,7 +14,7 @@ const RestaurantHeader = props => {
       <h1 className="popular-heading">Popular Restaurants</h1>
       <div className="select-container">
         <p className="select-text">
-          Select Your favorite restaurant special dish and make your day
+          Select Your favourite restaurant special dish and make your day
           happy...
         </p>
         <div className="sort-container">

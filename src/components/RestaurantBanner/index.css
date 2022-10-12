@@ -1,7 +1,7 @@
 .banner-bg {
   width: 100%;
   height: 350px;
-  background-image: url('/home/workspace/reactjs/coding-practices/tastyKitchensApp/src/Data/RestaurantBg.png');
+  background-image: url('https://res.cloudinary.com/debzhajy6/image/upload/v1665467566/RestaurantBg_viawku.png');
   display: flex;
   justify-content: center;
   align-items: center;

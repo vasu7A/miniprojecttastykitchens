@@ -1,7 +1,6 @@
 .nav-header {
   display: flex;
   justify-content: center;
-  align-items: center;
   background: #f8fafc;
 }
 
@@ -11,8 +10,14 @@
   justify-content: space-between;
   width: 90%;
   margin-top: 0px;
-  max-width: 1200px;
+  width: 1200px;
   margin-left: 0px;
+}
+@media screen and (max-height: 768px) {
+  .nav-bar-large-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 .icon-container {
@@ -29,6 +34,11 @@
   .website-logo {
     width: 53px;
     height: 43px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-header {
+    justify-content: space-between;
   }
 }
 
@@ -131,7 +141,6 @@
   border: none;
   background: none;
   margin-left: 0px;
-  margin-right: 20%;
 }
 
 @media screen and (min-width: 768px) {
@@ -143,11 +152,13 @@
 
 .modal-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px;
-  margin-top: 0px;
+  margin-left: 30px;
+  margin-top: 10px;
   background: #e5e5e5;
   width: 100vw;
+  text-align: center;
 }
 
 .nav-link-container {
@@ -158,4 +169,5 @@
 .close-btn {
   border: none;
   background: none;
+  margin-left: 70px;
 }

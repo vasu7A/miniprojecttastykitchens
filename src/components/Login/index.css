@@ -7,6 +7,7 @@
   height: 100vh;
   width: 38vw;
 }
+
 .loginCard {
   height: 453px;
   width: 356px;
@@ -63,4 +64,36 @@
 .errorMsg {
   color: #ef4444;
   font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  .loginpageBg {
+    display: none;
+  }
+  .heading {
+    display: none;
+  }
+  .website-logo {
+    display: none;
+  }
+  .loginCard {
+    box-shadow: none;
+    height: 50vh;
+    width: auto;
+    padding-right: 5rem;
+  }
+  .loginCardPosition {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100vw;
+  }
+  .loginHeading {
+    align-self: flex-start;
+  }
+}
+@media screen and (min-width: 769px) {
+  .mobile-website-bg {
+    display: none;
+  }
 }

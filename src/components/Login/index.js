@@ -63,8 +63,13 @@ class Login extends Component {
     return (
       <div className="loginPage">
         <div className="loginCardPosition">
+          <img
+            src="https://res.cloudinary.com/debzhajy6/image/upload/v1665476037/Rectangle_1457_1_mzmfhn.png"
+            alt="mobile-website-bg"
+            className="mobile-website-bg"
+          />
           <div className="loginCard">
-            <img src={logo} alt="website logo" />
+            <img src={logo} alt="website logo" className="website-logo" />
             <h1 className="heading">Tasty Kitchens</h1>
             <h1 className="loginHeading">Login</h1>
             <form onSubmit={this.submitForm}>
@@ -76,6 +81,7 @@ class Login extends Component {
                 id="input"
                 type="text"
                 className="inputBox"
+                placeholder="rahul"
                 onChange={this.getUsername}
               />
               <br />
@@ -87,6 +93,7 @@ class Login extends Component {
                 id="password"
                 type="password"
                 className="inputBox"
+                placeholder="rahul@2021"
                 onChange={this.getPassword}
               />
               <br />

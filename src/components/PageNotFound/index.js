@@ -1,17 +1,13 @@
 import {Link} from 'react-router-dom'
 import NavBar from '../NavBar'
-
+import error from '../../Data/erroring1.png'
 import './index.css'
 
 const PageNotFound = () => (
   <>
     <NavBar />
     <div className="not-found-container">
-      <img
-        src="https://res.cloudinary.com/dkobk5oao/image/upload/v1633714179/erroring_1_arx7dt.png"
-        alt="not found"
-        className="not-found-image"
-      />
+      <img src={error} alt="not found" className="not-found-image" />
       <h1 className="not-found-heading">Page Not Found</h1>
       <p className="not-found-text">
         we are sorry, the page you requested could not be found <br /> Please go
