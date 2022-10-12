@@ -154,11 +154,7 @@ class Restaurants extends Component {
 
   render() {
     const {isLoading} = this.state
-    return (
-      <div className="restaurants-page">
-        {isLoading ? this.renderLoader() : this.renderPopularRestaurants()}
-      </div>
-    )
+    return isLoading ? this.renderLoader() : this.renderPopularRestaurants()
   }
 }
 

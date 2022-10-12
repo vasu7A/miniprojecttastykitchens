@@ -25,8 +25,8 @@
 
 @media screen and (max-width: 768px) {
   .res-image {
-    width: 220px;
-    height: 220px;
+    width: 120px;
+    height: 120px;
     border-radius: 133.981px;
     display: flex;
     align-self: flex-start;
