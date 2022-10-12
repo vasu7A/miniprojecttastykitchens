@@ -1,7 +1,14 @@
 .cart-content-container {
   display: flex;
   flex-direction: column;
+
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .cart-content-container {
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .cart-headers-count {
@@ -52,7 +59,7 @@
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #475569;
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 .cart-header-price {

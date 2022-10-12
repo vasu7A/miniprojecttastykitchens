@@ -37,3 +37,16 @@
   border: none;
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+  .cart-total-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .total-price {
+    font-size: 16px;
+  }
+  .total-text {
+    font-size: 16px;
+    margin-right: 100px;
+  }
+}

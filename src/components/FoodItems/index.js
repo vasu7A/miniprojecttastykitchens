@@ -54,11 +54,11 @@ class FoodItems extends Component {
               <div className="food-item-info">
                 <h1 className="food-item-name">{name}</h1>
                 <div className="cost-cont">
-                  <FaRupeeSign size={16} color="#334155" />
+                  <FaRupeeSign size={14} color="#334155" />
                   <p className="food-item-cost">{cost}</p>
                 </div>
                 <div className="rating-cont">
-                  <ImStarFull size={18} color="#FFCC00" />
+                  <ImStarFull size={14} color="#FFCC00" />
                   <p className="food-item-rating">{rating}</p>
                 </div>
                 {quantity === 0 ? (

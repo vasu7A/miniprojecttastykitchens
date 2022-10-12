@@ -16,6 +16,12 @@
     width: 50%;
   }
 }
+@media screen and (max-width: 786px) {
+  .cart-item-info {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
 
 .cart-item-image {
   width: 136px;
@@ -49,6 +55,8 @@
   color: #183b56;
   text-align: center;
   margin: 0px;
+  width: 70px;
+  margin-right: 5px;
 }
 @media screen and (min-width: 786px) {
   .cart-item-mobile-name {
@@ -75,6 +83,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100px;
 }
 
 @media screen and (min-width: 786px) {

@@ -25,20 +25,22 @@
   align-items: center;
 }
 
-.website-logo {
+.nav-logo {
   width: 53px;
   height: 43px;
 }
 
-@media screen and (min-width: 768px) {
-  .website-logo {
-    width: 53px;
-    height: 43px;
+@media screen and (max-width: 768px) {
+  .nav-logo {
+    width: 43px;
+    height: 33px;
   }
 }
 @media screen and (max-width: 768px) {
   .nav-header {
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 

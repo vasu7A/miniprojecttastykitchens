@@ -52,7 +52,7 @@ const NavBar = props => {
         <div className="icon-container">
           <Link to="/" className="nav-link">
             <img
-              className="website-logo"
+              className="nav-logo"
               src="https://res.cloudinary.com/dkobk5oao/image/upload/v1633608363/Frame_274_mqin4h.png"
               alt="website logo"
             />

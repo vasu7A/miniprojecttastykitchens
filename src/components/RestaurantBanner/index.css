@@ -10,9 +10,10 @@
 
 .banner-container {
   width: 90%;
-  max-width: 1200px;
   display: flex;
   align-items: center;
+  padding-bottom: 10px;
+  height: 30vh;
 }
 
 .res-image {
@@ -22,11 +23,16 @@
   margin-left: 100px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .res-image {
-    width: 445px;
-    height: 280px;
-    border-radius: 8px;
+    width: 220px;
+    height: 220px;
+    border-radius: 133.981px;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 20x;
   }
 }
 
@@ -39,16 +45,16 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.2px;
   color: #ffffff;
   margin-bottom: 0px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .res-name {
-    font-size: 36px;
+    font-size: 13px;
   }
 }
 
